@@ -1,0 +1,55 @@
+.equipefont{
+    width: 100%;
+    height: 100vh;
+    filter: blur(2px);
+}
+
+.contentequipe{
+    position:absolute;
+    width:100%;
+    height:80%;
+    top:20%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:black;
+    line-height: 0.5;
+}
+
+.title {
+    font-size: 50px;
+    color: black;
+}
+
+.description {
+    font-size: 20px;
+    max-width: 50%;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .contentequipe {
+      top: 8%;
+    }
+
+    .title{
+        font-size: 2rem;
+        color: black;
+    }
+
+    .description {
+        max-width: 85%;
+    }
+  }
+
+@media (max-height: 668px){
+    .contentequipe {
+        top: 9%;
+      }
+
+      .description {
+          max-width: 85%;
+          font-size:medium;
+      }
+    }

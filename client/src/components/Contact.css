@@ -1,0 +1,21 @@
+.contact{
+    position:absolute;
+    top:14%;
+    left:12%;
+    width:30%;
+    
+}
+
+
+@media (max-width: 575.98px) {
+    .contact {
+      top: 30%;
+      left: 12%;
+      width: 75%;
+      
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+  }

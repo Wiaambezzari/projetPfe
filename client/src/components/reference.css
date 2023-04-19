@@ -1,0 +1,45 @@
+.referencefont{
+    width: 100%;
+    height: 100vh;
+    filter: blur(2px);
+}
+
+
+
+.contentreference {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.tabs{
+    width: 37.1%;
+    background-color:#FFCC00;
+    border-radius: 9px;
+}
+
+.tabsdiv {
+    margin-left: 4px;
+
+}
+
+.title{
+    font-size: 50px;
+    color: darkblue;
+}
+
+@media (max-width: 575.98px) {
+    .contentreference {
+      top: 30%;
+      left: 1px;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .tabs{
+        width: 90%;
+    }
+
+  }
